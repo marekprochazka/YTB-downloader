@@ -18,7 +18,6 @@ result = yt.streams.get_highest_resolution()
 dr = askdirectory()
 
 result.download(dr)
-# Converting
 if download_method in ("2","3"):
     mp4 = "%s.mp4" % (dr + f"/{yt.title}")
     mp3 = "%s.mp3" % (dr + f"/{yt.title}")
